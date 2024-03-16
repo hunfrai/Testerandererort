@@ -1,0 +1,229 @@
+
+.button {
+    background-color: #87a891;
+    color: rgb(0, 0, 0);
+    border: solid rgba(0, 0, 0, 0.8);
+    padding: 0.1rem;
+    text-align: center;
+    display: block;
+    max-width: 63%;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.15s;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.button:active{
+    opacity: 0.7;
+}
+/*Layout paraghraphen/text  */
+
+p {
+    background-color: #d9ebda;
+    text-align: center;
+    color: rgb(0, 0, 0);   
+    padding: 1rem;
+    max-width: 61%;
+    width: auto; 
+    font-size: 1.5rem;
+    border: solid #000000;   
+    border-radius: 2rem;
+}
+
+.slider_text {
+
+    max-width: 100%;
+    text-align: center;
+    align-content: left;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1rem;
+}
+
+.infobox{
+    width: auto;
+    height: auto;
+}
+
+
+/* Überschrift */
+h1{
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;    
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    width: fill;
+    max-width: 60%;
+
+}
+
+#container{
+    max-width: auto;
+    display: grid;
+    text-align: center;
+    
+}
+
+canvas{
+    border: solid #000000; 
+    background-color: rgb(255, 255, 255);
+    display: block;
+
+}
+
+.grafik-container{
+    width: fill;
+    max-width: 60%;
+    background-color: white;
+    border: solid black;
+       
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 60% 1fr;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    max-width: 60%;
+}
+
+.tabelle-container {
+    border: solid rgba(0, 0, 0, 0.8);
+    background-color: white;
+    max-width: 60%;
+    font-size: 1.5rem;
+    display: none;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid;
+    font-size: 1.2rem;
+    width: auto;
+}
+table {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.headline{
+    font-size: 2rem;
+    text-decoration-line: underline;
+}
+
+.chart {
+    max-width: auto;
+    background-color: white;
+}
+
+.slider {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 20vw;
+    accent-color:rgb(40, 44, 38);
+    background-color: #87a891;
+}
+
+.output{
+    width: 10vw;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+@media screen and (max-width: 700px) {
+    p {
+        max-width: 100%;
+    }
+    .button {
+        max-width: 100%;
+    }
+
+    .infobox {
+        max-width: 100%;
+    }
+    .grafik-container {
+        max-width: 100%;
+    }
+
+    .tabelle-container {
+        max-width: 100%;
+    }
+
+    .grid-container {
+        max-width: 100%;
+    }
+
+    ul {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 11vw;
+        
+    }
+
+    .tabelle-container {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    p {
+        max-width: 80%;
+    }
+    .button {
+        max-width: 80%;
+    }
+
+    .infobox {
+        max-width: 80%;
+    }
+    .grafik-container {
+        max-width: 80%;
+    }
+
+    .tabelle-container {
+        max-width: 80%;
+    }
+
+    .grid-container {
+        max-width: 80%;
+    }
+
+    ul {
+        max-width: 72%;
+    }
+
+    h1 {
+        font-size: 11vw;
+        
+    }
+
+    .tabelle-container {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+}
